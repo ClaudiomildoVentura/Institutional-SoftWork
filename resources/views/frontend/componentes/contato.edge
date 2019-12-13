@@ -1,0 +1,81 @@
+<article id="ContatoS" class="col-xs-12">
+<h2> Contato</h2>
+<form id ="Contatos" name="formContato" class="form-horizontal col-sm-10 col-sm-offset-1" method="post" action="/src/pages/mail.php" target="index.html">
+	<div class="col-xs-12 col-sm-8">
+		<div class="form-group">	
+			<label for="nome" class="control-label col-sm-3">Nome:* </label>
+			<div class="col-sm-9">
+				<input type="text" id="nome" name="nome" maxlength="50" class="form-control" placeholder="Insira seu nome" required>						
+			</div>	
+		</div>
+		<div class="form-group">	
+			<label for="email" class="control-label col-sm-3">Email:* </label>	
+			<div class="col-sm-9">
+				<input type="email" id="email" name="email" maxlength="80" class="form-control col-sm-9" placeholder="Digite um e-mail v&aacute;lido" required>						
+			</div>
+		</div>
+		<div class="form-group">	
+			<label for="comentario" class="control-label col-sm-3">Mensagem:* </label>	
+			<div class="col-sm-9">
+				<textarea class="form-control" name="comentario" maxlength="1000" cols="25" rows="6" placeholder="Digite sua mensagem e entraremos em contato o mais breve poss&iacute;vel." required></textarea>
+			</div>
+		</div>
+		<div class="form-group text-right">
+			<button class="btn btn-default" type="submit" value="Submit">Enviar</button>
+		</div>
+	</div>
+		<div class="col-xs-12 col-sm-3 hidden-xs col-sm-offset-1 text-center">
+			<p class="fas fa-mail-bulk"></p>
+			<div id="mensagensForm"></div>
+		</div>
+
+<!--
+<table >
+<tr>
+ <td valign="top">
+  <label for="first_name">First Name *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="first_name" maxlength="50" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top"">
+  <label for="last_name">Last Name *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="last_name" maxlength="50" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="email">Email Address *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="email" maxlength="80" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="telephone">Telephone Number</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="telephone" maxlength="30" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="comments">Comments *</label>
+ </td>
+ <td valign="top">
+  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+ </td>
+</tr>
+<tr>
+ <td colspan="2" style="text-align:center">
+  <input type="submit" value="Submit">   <a href="http://www.freecontactform.com/email_form.php">Email Form</a>
+ </td>
+</tr> -->
+</table>
+</form>
+</article>

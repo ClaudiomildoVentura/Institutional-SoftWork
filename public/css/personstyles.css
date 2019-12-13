@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+body,
+html {
+    color: #FFFFFF !important;
+    height: 100%;
+    background-color: #c7c7c7 !important;
+    margin: 0 !important;
+}
+
+
+/* .success e .error referem-se a mensagem de envio de email. */
+
+.success {
+    padding: 1em;
+    margin-bottom: 0.75rem;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    color: #468847;
+    background-color: #dff0d8;
+    border: 1px solid #d6e9c6;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.error {
+    padding: 1em;
+    margin-bottom: 0.75rem;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    color: #b94a48;
+    background-color: #f2dede;
+    border: 1px solid rgba(185, 74, 72, 0.3);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.col-xs-12 .col-sm-12 {
+    margin: 20px 0;
+}
+
+.modal-dialog {
+    margin: 60px auto !important;
+    background-color: #06041B !important;
+}
+
+.modal-content {
+    background-color: #06041B !important;
+}
+
+a[href] {
+    color: white !important;
+    font-size: 16px !important;
+}
+
+a[href]:hover {
+    color: black !important;
+}
+
+.fa,
+.fas {
+    font-size: 60px !important;
+    padding: 30px !important;
+    text-align: center;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Anton', sans-serif !important;
+    border-left: 6px solid #FFFFFF;
+    color: #00A9FF !important;
+    white-space: pre-wrap;
+}
+
+.icon-bar {
+    background-color: white !important;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../imgs/background.jpg");
+    /* Full height */
+    height: calc(100% - 100px);
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#HeaderSoftWork {
+    background-color: #06041B;
+    color: white;
+    overflow: visible;
+    height: 180px;
+}
+
+#HeaderP2 {
+    text-align: right;
+    height: 140px;
+}
+
+#HeaderP2 i {
+    font-size: 48px;
+    padding: 10px;
+    padding-top: 8%;
+}
+
+#HeaderP1 img {
+    max-height: 200px;
+}
+
+#MainSection {
+    background-color: #06041B !important;
+    height: auto;
+}
+
+.navbar {
+    margin-bottom: 0px !important;
+    border-radius: 0px !important;
+}
+
+.form-horizontal {
+    margin: 30px 0;
+}
+
+.form-horizontal .fas {
+    font-size: 120px !important;
+}
+
+.container {
+    margin: 50px auto;
+    padding-bottom: 25px;
+}
+
+nav {
+    background-color: #06041B;
+}
+
+#NossaEquipe {
+    background-color: #c7c7c7;
+    margin: 30px 10px;
+    padding: 10px;
+    margin-left: 25px;
+}
+
+#NossaEquipe img {
+    border-radius: 6px;
+    width: 100%;
+    transition: 1s ease;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+#NossaEquipe img:hover,
+#NossaEquipe:hover img {
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    filter: grayscale(0%);
+    border-radius: 30px;
+}
+
+.contatocard {
+    position: relative;
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+    color: black;
+    min-height: 25px;
+}
+
+.contatocard li {
+    position: relative;
+    width: 50%;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #c7c7c7;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: 1s ease;
+}
+
+.contatocard:hover .overlay,
+#NossaEquipe:hover .overlay {
+    height: 25%;
+}
+
+.text {
+    color: black;
+    font-size: 24px;
+    position: absolute;
+    overflow: hidden;
+}
+
+article h1::before,
+article h2::before,
+h3::before {
+    content: "  " !important;
+}
+
+#MainSection article {
+    margin-top: 15px;
+    padding: 0 30px;
+}
+
+#MainSection article:first-child {
+    margin-top: 30px;
+}
+
+#NossosProdutos {
+    height: auto;
+}
+
+.product img {
+    height: inherit;
+}
+
+.logoProduto {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .modal-footer button {
+        display: block !important;
+        width: 100% !important;
+        margin: 0 !important;
+    }
+    #MainSection #OurTeam {
+        padding-bottom: 50px !important;
+        background-color: #c7c7c7 !important;
+    }
+    .form-horizontal {
+        margin: 30px !important;
+    }
+    .fa,
+    .fas {
+        margin: 30px 0;
+    }
+    body,
+    html {
+        background-color: #06041B !important;
+    }
+    .parallax {
+        background-attachment: scroll;
+    }
+    .col-xs-12,
+    #HeaderSoftWork {
+        padding: 0 !important;
+    }
+    .container {
+        padding: 0 !important;
+        margin-top: 0px;
+    }
+    #HeaderSoftWork {
+        height: 200px;
+    }
+    #HeaderP2 {
+        text-align: center;
+        height: 80px;
+    }
+    #HeaderP2 i {
+        font-size: 48px;
+    }
+    #HeaderP1 {
+        text-align: center;
+    }
+    #HeaderP1 img {
+        height: 200px;
+    }
+    #isobrenos {
+        font-size: 80px !important;
+    }
+    #NossaEquipe {
+        margin: 0px;
+        padding: 0px;
+    }
+    #NossaEquipe img {
+        padding: 50px;
+        padding-bottom: 20px;
+    }
+    .overlay {
+        height: 10%;
+    }
+}
+
+body {
+    position: relative;
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+
+.affix~.container-fluid {
+    position: relative;
+    top: 50px;
+}
